@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url(image/button_eriacheck.PNG);
+    background-image: url(button_eriacheck.PNG);
     background-size: cover;
     z-index: 1;
     text-align: center;
