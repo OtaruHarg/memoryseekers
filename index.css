@@ -1,0 +1,177 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 2160px;
+    width: 1080px;
+}
+
+.mission_button{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 266px;
+    left: auto;
+    right: 50px;
+    border-radius: 50%;
+    background-color: #808080;
+}
+
+.scroll_y{
+    margin-top: 216px;
+    height: 1944px;
+    overflow-y: scroll;
+}
+
+.top_eria{
+    background-color: #808080;
+    height: 216px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#title{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    height: 200px;
+    width: 300px;
+}
+
+#login{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: 8px;
+    height: 200px;
+    width: 200px;
+}
+
+
+.setumei_eria{
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+.setumei_eria_p{
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    height: 220px;
+    width: 1020px;
+    overflow-x: scroll;
+}
+
+.menber_eria{
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    height: 500px;
+    width: 1020px;
+    overflow-x: scroll;
+}
+
+.charaimage{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 330px;
+}
+
+.charasetumei{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 760px;
+    height: 330px;
+    text-align: left;
+}
+
+.main_eria{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1020px;
+    height: 1800px;
+    overflow-y: scroll;
+}
+
+.field{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field_2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 480px;
+    height: 320px;
+}
+
+.story_image{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
+
+.story_naiyou{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 560px;
+    height: 200px;
+    text-align: left;
+}
+
+.story_tag{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 200px;
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 767px) {
+  /*ウィンドウ幅が767px以上の場合に適用*/
+}
+
+/* タブレット用 */
+@media screen and (max-width: 767px) {
+  /*ウィンドウ幅が最大767pxまでの場合に適用*/
+}
+
+/* スマホ用 */
+@media screen and (max-width: 479px) {
+    .allContents {
+        display: block;
+    }
+}
