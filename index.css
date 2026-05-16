@@ -158,8 +158,13 @@ body{
     text-align: center;
 }
 
-.kiyaku{
-    
+.tyuui{
+    background-color: blue;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    width: 1080px;
+    height: 20px;
 }
 
 
