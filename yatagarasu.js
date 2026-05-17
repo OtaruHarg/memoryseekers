@@ -26,6 +26,19 @@ function load(){
             main_story[kaisuu] = "false";
         }
     }
+    var kaisuu = 0;
+    while(kaisuu < 8){
+        kaisuu = kaisuu + 1;
+        main_story[kaisuu] = window.localStorage.getItem("event_story_" + kaisuu);
+        if(main_story[kaisuu] == "true"){
+            document.getElementById("eventstorys_" + kaisuu).src = YEstory_imgurl[kaisuu];
+        }else{
+            console.log(kaisuu);
+            document.getElementById("event_story_" + kaisuu + "_3").textContent = ("「？？？」");
+            document.getElementById("event_story_" + kaisuu + "_4").textContent = "";
+            main_story[kaisuu] = "false";
+        }
+    }
 }
 
 function mainstory(x){
