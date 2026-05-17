@@ -168,8 +168,7 @@ body{
 }
 
 .scroll_y{
+    margin-top: 216px;
     width: 1080px;
     overflow-y: scroll;
 }
-
-
