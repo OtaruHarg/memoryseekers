@@ -1,7 +1,16 @@
 var main_story = [null,"true",null,null,null,null,null,null,null];
 window.onload = load();
 
-var YMstory_imgurl = [null,"","https://lh3.googleusercontent.com/d/1sC9jB4HfVBFcvaZTh2kyAdSIWFXM6C7O","","","","","",""];
+var YMstory_imgurl = [null,
+    "",
+    "https://lh3.googleusercontent.com/d/1sC9jB4HfVBFcvaZTh2kyAdSIWFXM6C7O",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+];
 
 function load(){
     var kaisuu = 1;
