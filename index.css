@@ -160,7 +160,6 @@ body{
 .tyuui{
     position: absolute;
     z-index: 100;
-    margin-top: 216px;
     background-color: blue;
     opacity: 0.8;
     text-align: center;
