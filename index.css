@@ -1,12 +1,14 @@
 html{
     padding: 0;
     margin: 0;
+    height: 2160px;
+    width: 1080px;
 }
 
 body{
     padding: 0;
     margin: 0;
-    height: 2160px;
+    height: 1944px;
     width: 1080px;
 }
 
