@@ -4,7 +4,7 @@ window.onload = load();
 var YMstory_imgurl = [null,
     "",
     "https://lh3.googleusercontent.com/d/1sC9jB4HfVBFcvaZTh2kyAdSIWFXM6C7O",
-    "",
+    "https://lh3.googleusercontent.com/d/1aCvxns71_3ezGM5rY-cKgz0vDtSllEax",
     "",
     "",
     "",
