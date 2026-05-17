@@ -18,11 +18,11 @@ function load(){
         kaisuu = kaisuu + 1;
         main_story[kaisuu] = window.localStorage.getItem("main_story_" + kaisuu);
         if(main_story[kaisuu] == "true"){
+            document.getElementById("mainstorys_" + kaisuu).src = YMstory_imgurl[kaisuu];
         }else{
             console.log(kaisuu);
             document.getElementById("main_story_" + kaisuu + "_3").textContent = ("第" + kaisuu + "話「？？？」");
             document.getElementById("main_story_" + kaisuu + "_4").textContent = "";
-            document.getElementById("mainstorys_" + kaisuu).src = "story/card_unlock.png";
             main_story[kaisuu] = "false";
         }
     }
