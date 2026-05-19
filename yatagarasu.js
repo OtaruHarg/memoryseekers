@@ -22,7 +22,7 @@ function load(){
     while(kaisuu < (YMstory_imgurl.length - 1)){
         kaisuu = kaisuu + 1;
         main_story[kaisuu] = window.localStorage.getItem("main_story_" + kaisuu);
-        if(main_story[kaisuu] == "true"){
+        if(main_story[4] == "true"){
             document.getElementById("mainstorys_" + kaisuu).src = YMstory_imgurl[kaisuu];
         }else{
             console.log(kaisuu);
