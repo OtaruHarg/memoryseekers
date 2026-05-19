@@ -15,7 +15,7 @@ var YMstory_imgurl = [null,
 var YEstory_imgurl = [null,
     "",
     "",
-]
+];
 
 function load(){
     var kaisuu = 1;
