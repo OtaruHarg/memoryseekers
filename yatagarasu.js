@@ -12,9 +12,14 @@ var YMstory_imgurl = [null,
     ""
 ];
 
+var YEstory_imgurl = [null,
+    "",
+    "",
+]
+
 function load(){
     var kaisuu = 1;
-    while(kaisuu < 8){
+    while(kaisuu < (YMstory_imgurl.length - 1)){
         kaisuu = kaisuu + 1;
         main_story[kaisuu] = window.localStorage.getItem("main_story_" + kaisuu);
         if(main_story[kaisuu] == "true"){
@@ -27,7 +32,7 @@ function load(){
         }
     }
     var kaisuu = 0;
-    while(kaisuu < 8){
+    while(kaisuu < (YEstory_imgurl.length - 1)){
         kaisuu = kaisuu + 1;
         main_story[kaisuu] = window.localStorage.getItem("event_story_" + kaisuu);
         if(main_story[kaisuu] == "true"){
