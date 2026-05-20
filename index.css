@@ -118,6 +118,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: darkblue;
+    color: white;
     box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
