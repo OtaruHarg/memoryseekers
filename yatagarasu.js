@@ -1,7 +1,8 @@
 var main_story = [null,"true",null,null,null,null,null,null,null];
 window.onload = load();
 
-var YMstory_imgurl = [null,
+var YMstory_imgurl = [
+    "https://lh3.googleusercontent.com/d/1Ne-F1NXWiZjI5cX1BGtuL9c8PR7K2Zhs",
     "https://lh3.googleusercontent.com/d/1VhhmYqqEz0FyjnlPVZFTXcub1XVCaStT",
     "https://lh3.googleusercontent.com/d/1sC9jB4HfVBFcvaZTh2kyAdSIWFXM6C7O",
     "https://lh3.googleusercontent.com/d/1aCvxns71_3ezGM5rY-cKgz0vDtSllEax",
