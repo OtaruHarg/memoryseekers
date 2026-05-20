@@ -114,8 +114,11 @@ body{
 }
 
 .field_2{
+    width: 1020px;
     display: flex;
     justify-content: space-around;
+    background-color: darkblue;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 .card{
@@ -175,6 +178,10 @@ a{
     color: red;
 }
 
+.tyousa{
+    background-color: #808080;
+    width: ;
+}
 
 
 
