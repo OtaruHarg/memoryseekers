@@ -184,5 +184,38 @@ a{
     width: ;
 }
 
+.main_place{
+    background-color: #808080;
+    height: 1944px;
+    width: 1080px;
+}
 
+.back_haikei{
+    position: absolute;
+    background-color: black;
+    z-index: 2;
+    top: 324px;
+    left: 0;
+    height: 720px;
+    width: 1080px;
+}
 
+.serihu_chara{
+    top: 1044px;
+    left: 0;
+    position: absolute;
+    z-index: 5;
+    background-color: white;
+    width: 1080px;
+    height: 200px;
+}
+
+.serihu{
+    position: absolute;
+    top: 1244px;
+    left: 0;
+    z-index: 4;
+    background-color: aliceblue;
+    width: 1080px;
+    height: 916px;
+}

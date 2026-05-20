@@ -14,11 +14,11 @@ var story =
     ],[//1-
         "10-",
         [//11-
-            "110",//null
-            "111",//chara_a
-            "112",//chara_b
-            "113",//chara_c
-            "114",//haikei
+            "",//null
+            "",//chara_a
+            "",//chara_b
+            "",//chara_c
+            "",//haikei
             "115",//serihu_chara
             "116" //serihu_naiyou
         ],[//12-
