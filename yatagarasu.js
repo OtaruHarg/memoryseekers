@@ -20,7 +20,7 @@ var YEstory_imgurl = [null,
 
 function load(){
     var kaisuu = 1;
-    while(kaisuu < (Number(YMstory_imgurl.length) - 1)){
+    while(kaisuu < (Object.keys(YMstory_imgurl).length) - 1){
         kaisuu = kaisuu + 1;
         main_story[kaisuu] = window.localStorage.getItem("main_story_" + kaisuu);
         if(main_story[4] == "true"){
